@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#fff;
+    font-size: 20px;
+    display: grid;
+}
+.container {
+    position: relative;
+    justify-content: center;
+    width: 80vw;
+    height: auto;
+    top: 10vh;
+    left: 10vw;
+    display: grid;
+}
+svg {
+    position: relative;
+    justify-self: center;
+}
+p {
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    justify-self: center;
+}
+h1 {
+    position: relative;
+    font-size: 50px;
+    top: 8vh;
+    justify-self: center;
+    color: lightgray;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+
+}
+#myspan {
+    font-family: 'Libre Franklin', sans-serif;
+    color: black;
+    font-weight: 900;
+}
+#myform {
+    position: relative;
+    justify-self: center;
+    top: 10vh;
+}
+#inpage {
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    left: 17vw;
+    top: 1vh;
+}
+input {
+    position: relative;
+    width: 40vw;
+    height: 5vh;
+    top: 6vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid 1px hsl(223, 100%, 88%);
+}
+input:focus, select:focus {
+    outline: none;
+}
+input[type=email], select {
+    position: relative;
+    color: lightgray;
+    font-size: 20px;
+    padding: 15px;
+}
+button {
+    position: relative;
+    width: 12vw;
+    height: 10vh;
+    top: 6vh;
+    left: 1vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid 1px hsl(223, 100%, 88%);
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    box-shadow: 1px 1px 10px 1px hsl(223, 100%, 88%);
+}
+.body-img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: 30vh;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+footer {
+    position: relative;
+    top: 40vh;
+    justify-self: center;
+}
+.icons {
+    position: relative;
+    left: 8vw;
+}
+.footer-img {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 1px hsl(223, 100%, 88%);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+.footer-img:hover {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 1px hsl(223, 100%, 88%);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: hsl(223, 87%, 63%);
+}
+#copyDiv {
+    position: relative;
+    color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 80vw;
+        height: auto;
+        top: 10vh;
+        left: 10vw;
+        display: grid;
+    }
+    svg {
+        position: relative;
+        justify-self: center;
+    }
+    p {
+        position: relative;
+        font-family: 'Libre Franklin', sans-serif;
+        justify-self: center;
+    }
+    h1 {
+        position: relative;
+        font-size: 25px;
+        top: 4vh;
+        justify-self: center;
+        color: lightgray;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 100;
+    
+    }
+    #myspan {
+        font-family: 'Libre Franklin', sans-serif;
+        color: black;
+        font-weight: 900;
+    }
+    #myform {
+        position: relative;
+        justify-self: center;
+        top: 10vh;
+        display: grid;
+        font-weight: 600;
+    }
+    #inpage {
+        position: relative;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 15px;
+        left: 0;
+        top: -2vh;
+        justify-self: center;
+    }
+    input {
+        position: relative;
+        width: 80vw;
+        height: 8vh;
+        top: 4vh;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: solid 1px hsl(223, 100%, 88%);
+    }
+    input::placeholder {
+        position: relative;
+        color: lightgray;
+        font-size: 20px;
+        left: 16vw;
+    }
+    button {
+        position: relative;
+        width: 80vw;
+        height: 8vh;
+        top: 8vh;
+        left: 1vw;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: solid 1px hsl(223, 100%, 88%);
+        background-color: hsl(223, 87%, 63%);
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Libre Franklin', sans-serif;
+        box-shadow: 1px 1px 10px 1px hsl(223, 100%, 88%);
+    }
+    .body-img {
+        position: relative;
+        height: auto;
+        width: 100%;
+        top: 30vh;
+        max-width: 750px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    footer {
+        position: relative;
+        top: 45vh;
+        justify-self: center;
+    }
+    .icons {
+        position: relative;
+        left: 28vw;
+    }
+    .footer-img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: solid 1px hsl(223, 100%, 88%);
+        border-radius: 50%;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .footer-img:hover {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: solid 1px hsl(223, 100%, 88%);
+        border-radius: 50%;
+        padding: 2px;
+        background-color: hsl(223, 87%, 63%);
+    }
+    #copyDiv {
+        position: relative;
+        color: gray;
+        font-size: 20px;
+    }
+    
+}
