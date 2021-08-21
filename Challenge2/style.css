@@ -242,7 +242,7 @@ footer {
     }
     .icons {
         position: relative;
-        left: 28vw;
+        left: 17vw;
     }
     .footer-img {
         position: relative;
@@ -267,7 +267,7 @@ footer {
     #copyDiv {
         position: relative;
         color: gray;
-        font-size: 20px;
+        font-size: 13px;
     }
     
 }
