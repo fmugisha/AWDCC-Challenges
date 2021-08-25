@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 
-/*@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');*/
-
 * {
     margin: 0;
     padding: 0;
@@ -73,7 +69,7 @@ input {
 input:focus, select:focus {
     outline: none;
 }
-input[type=email], select {
+input[type=text], select {
     position: relative;
     color: lightgray;
     font-size: 20px;
@@ -96,6 +92,14 @@ button {
     font-weight: 300;
     font-family: 'Libre Franklin', sans-serif;
     box-shadow: 1px 1px 10px 1px hsl(223, 100%, 88%);
+}
+#error {
+    position: relative;
+    top: 18vh;
+    left: 2vw;
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: hsl(354, 100%, 66%);
 }
 .body-img {
     position: relative;
@@ -141,7 +145,7 @@ footer {
     color: gray;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     .container {
         position: relative;
         justify-content: center;
@@ -192,26 +196,28 @@ footer {
     }
     input {
         position: relative;
-        width: 80vw;
-        height: 8vh;
+        width: 72vw;
+        height: 4vh;
         top: 4vh;
         border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         border: solid 1px hsl(223, 100%, 88%);
     }
-    input::placeholder {
+    input:focus, select:focus {
+        outline: none;
+    }
+    input[type=text], select {
         position: relative;
         color: lightgray;
         font-size: 20px;
-        left: 16vw;
+        padding: 15px;
     }
     button {
         position: relative;
         width: 80vw;
         height: 8vh;
-        top: 8vh;
+        top: 10vh;
         left: 1vw;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -224,6 +230,14 @@ footer {
         font-weight: 300;
         font-family: 'Libre Franklin', sans-serif;
         box-shadow: 1px 1px 10px 1px hsl(223, 100%, 88%);
+    }
+    #error {
+        position: relative;
+        top: 7vh;
+        left: 13vw;
+        font-size: 12px;
+        font-family: 'Libre Franklin', sans-serif;
+        color: hsl(354, 100%, 66%);
     }
     .body-img {
         position: relative;
